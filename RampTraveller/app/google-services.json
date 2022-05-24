@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "335592784527",
+    "firebase_url": "https://ramp-traveller.firebaseio.com",
+    "project_id": "ramp-traveller",
+    "storage_bucket": "ramp-traveller.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335592784527:android:6c9606cc9e45298bb166fa",
+        "android_client_info": {
+          "package_name": "com.example.ramptraveller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335592784527-0n99pc763koiqitv7h5qvrsq4jek7oin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFS9W03JA0cLxQIpG65IZkl8W8dnbxfBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335592784527-0n99pc763koiqitv7h5qvrsq4jek7oin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/travel">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ramp Traveller"
+        app:titleTextColor="#0000"
+        android:background="#0F142B"
+        android:id="@+id/toolbar"
+        app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
+        >
+    </androidx.appcompat.widget.Toolbar>
+
+            <ImageButton
+                android:id="@+id/restaurant_button"
+                android:layout_width="73dp"
+                android:layout_height="69dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/foodlogo">
+            </ImageButton>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:text="Restaurants"
+        android:textColor="@color/black"
+        android:textSize="20dp">
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/attraction_button"
+        android:layout_width="73dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/attraction">
+    </ImageButton>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="66dp"
+        android:text="Attraction"
+        android:textColor="@color/black"
+        android:textSize="20dp">
+    </TextView>
+    <ImageButton
+        android:id="@+id/hotel_button"
+        android:layout_width="73dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/hotel">
+    </ImageButton>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="82dp"
+        android:text="Hotel"
+        android:textColor="@color/black"
+        android:textSize="20dp">
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/shopping_button"
+        android:layout_width="73dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shopping">
+    </ImageButton>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="68dp"
+        android:text="Shopping"
+        android:textColor="@color/black"
+        android:textSize="20dp">
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/entertainment_button"
+        android:layout_width="73dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/entertain">
+    </ImageButton>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="58dp"
+        android:text="Entertainment"
+        android:textColor="@color/black"
+        android:textSize="20dp">
+    </TextView>
+
+
+</LinearLayout>
