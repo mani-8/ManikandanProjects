@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+	
+	<hibernate-configuration>
+	<session-factory>
+	<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+	<property name="connection.url">jdbc:mysql://localhost:3306/anudip</property>
+	<property name="connection.username">root</property>
+	<property name="connection.password">Manih007mysql</property>
+	<property name="hbm2ddl.auto">update</property>
+	<property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+	<!-- <property name="show_sql">true</property> -->
+	
+<!-- 	<mapping class = "com.dbms.Hibernate.User"/> -->
+<!-- 		<mapping class = "joinoperation.Question"/>   -->
+<!-- 		<mapping class = "joinoperation.Answer"/>  -->
+<!--   		<mapping class = "com.dbms.Hibernate.StudentClass"/>  -->
+<!-- 		<mapping resource = "com/dbms/Hibernate/StudentClass.hbm.xml"/>  -->
+<mapping class = "com.dbms.BankingApplicationSystem.Bank"/>
+	</session-factory>
+	</hibernate-configuration>
